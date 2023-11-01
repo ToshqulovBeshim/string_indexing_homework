@@ -6,4 +6,9 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    a=0
+    for i in range(len(s)):
+        a+=int(s[i])
+    return a
+s="2345676543"
+print(main(s))

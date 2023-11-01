@@ -6,4 +6,10 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    d=""
+    for i in range(len (s)):
+        d+=s[i]+" "
+    return d
+    
+s="56789876"
+print(main(s))  

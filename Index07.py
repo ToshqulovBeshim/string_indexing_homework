@@ -6,4 +6,10 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    if len(s)>n:
+        return s[n]
+    else :
+        return False
+s="dfghj"
+n=3
+print(main(s,n))

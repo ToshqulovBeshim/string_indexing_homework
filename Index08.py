@@ -6,5 +6,17 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    a=0
+    for i in range(len(s)):
+        if s[i]=="*":
+            a+=1
+    if a==0:
+        return False
+    else:
+        return a
+s="UHYHJGhgdbh"
+print(main(s))
+            
+        
+    
         
